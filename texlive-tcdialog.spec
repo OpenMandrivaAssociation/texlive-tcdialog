@@ -15,7 +15,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tcdialog.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tcdialog.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
-Requires(post):	texlive-tlpkg
+Requires(pre):	texlive-tlpkg
 Provides:	texlive-tcdialog.bin = %{EVRD}
 Requires:	cdialog
 Conflicts:	texlive-texmf <= 20110705-3
