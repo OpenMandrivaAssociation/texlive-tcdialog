@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-tcdialog
 Version:	20111104
-Release:	5
+Release:	6
 Summary:	TeXLive tcdialog package
 Group:		Publishing
 URL:		http://tug.org/texlive
